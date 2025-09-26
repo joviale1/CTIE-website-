@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - CTIE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="CTIE Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="formations.html">Formations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="medias.html">Médias</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECTION CONTACT -->
+    <section class="contact">
+        <div class="container">
+            <h1>Contactez-nous</h1>
+            <p>Vous pouvez nous contacter via téléphone, email ou en remplissant le formulaire ci-dessous.</p>
+
+            <!-- Informations de contact -->
+            <div class="contact-info">
+                <p><strong>Téléphone :</strong> 0165848010 / 0147545724</p>
+                <p><strong>Email :</strong> ctiebenin@gmail.com</p>
+                <p><strong>Adresse :</strong> Abomey-Calavi, Kansoukpa</p>
+            </div>
+
+            <!-- Formulaire de contact -->
+            <div class="contact-form">
+                <form action="https://formsubmit.co/ctiebenin@gmail.com" method="POST">
+                    <!-- Sécurité anti-spam -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="Nouveau message depuis le site CTIE">
+                    <input type="hidden" name="_template" value="table">
+
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+
+                    <button type="submit" class="btn">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CTIE - Tous droits réservés</p>
+            <p>Contact : 0165848010 / 0147545724 | Email : ctiebenin@gmail.com</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

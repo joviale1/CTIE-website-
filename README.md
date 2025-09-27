@@ -30,13 +30,13 @@ Site web officiel du centre CTIE. Présente les formations, services, galerie m�
 
 ## 📂 Dossier et fichiers
 
-CTIE/ ├─ index.html ├─ about.html ├─ formations.html ├─ services.html ├─ medias.html ├─ faq.html ├─ contact.html ├─ css/ │  └─ style.css ├─ js/ │  └─ script.js ├─ images/ │  ├─ logo.png │  ├─ banner1.jpg │  ├─ banner2.jpg │  ├─ banner3.jpg │  ├─ ... (banner4.jpg → banner12.jpg) │  ├─ medias1.jpg │  ├─ medias2.jpg │  └─ medias3.jpg ├─ medias/ │  ├─ song1.mp3 │  └─ song2.mp3 └─ README.md
+CTIE/ ├─ index.html ├─ about.html ├─ formations.html ├─ services.html ├─ medias.html ├─ faq.html ├─ contact.html ├─ css/ │  └─ style.css ├─ js/ │  └─ script.js ├─ images/ │  ├─ logo.png │  ├─ banner1.jpg │  ├─ banner2.jpg │  ├─ banner3.jpg │  ├─ ... (banner4.jpg → banner18.jpg) │  ├─ medias1.jpg │  ├─ medias2.jpg │  └─ medias3.jpg ├─ medias/ │  ├─ song1.mp3 │  └─ song2.mp3 └─ README.md
 
 ---
 
 ## ⚡ Fonctionnalités
 
-- **Bannière animée** : 12 images changent automatiquement toutes les 5 secondes.
+- **Bannière animée** : 18 images changent automatiquement toutes les 5 secondes.
 - **Galerie d’images et sons** : Compatible avec les images Facebook et audio MP3.
 - **Responsive design** : Adapté à tous les appareils (mobile, tablette, PC).
 - **FAQ déroulante** : Clique sur la question pour voir la réponse.
@@ -70,3 +70,4 @@ CTIE/ ├─ index.html ├─ about.html ├─ formations.html ├─ services
 - Le fichier `script.js` gère :
   - Slider automatique pour la bannière
   - FAQ déroulante
+
